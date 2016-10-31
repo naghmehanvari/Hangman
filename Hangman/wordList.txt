@@ -1,0 +1,18 @@
+elephant,Animal
+rhinoceros,Animal
+shoulder,Body Parts
+wrist,Body Parts
+swimsuit,Clothing
+blouse,Clothing
+annoyance,Emotions
+ecstatic,Emotions
+steak,Foods
+quesadilla,Foods
+pineapple,Fruits
+kiwi,Fruits
+zookeeper,Jobs
+astronaut,Jobs
+library,Places
+sphere,Shapes
+beige,Colors
+basketball,Sports

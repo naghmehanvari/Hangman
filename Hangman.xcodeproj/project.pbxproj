@@ -12,6 +12,9 @@
 		9FA4E8471DB989C700DC70CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA4E8451DB989C700DC70CD /* Main.storyboard */; };
 		9FA4E8491DB989C700DC70CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA4E8481DB989C700DC70CD /* Assets.xcassets */; };
 		9FA4E84C1DB989C700DC70CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA4E84A1DB989C700DC70CD /* LaunchScreen.storyboard */; };
+		9FA4E8551DB98F6A00DC70CD /* 2764.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA4E8541DB98F6A00DC70CD /* 2764.png */; };
+		9FA4E8571DBA875200DC70CD /* wordList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9FA4E8561DBA875200DC70CD /* wordList.txt */; };
+		9FF539621DC2776C00538635 /* Hearts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF539611DC2776C00538635 /* Hearts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9FA4E8481DB989C700DC70CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FA4E84B1DB989C700DC70CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FA4E84D1DB989C700DC70CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FA4E8541DB98F6A00DC70CD /* 2764.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2764.png; sourceTree = "<group>"; };
+		9FA4E8561DBA875200DC70CD /* wordList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordList.txt; sourceTree = "<group>"; };
+		9FF539611DC2776C00538635 /* Hearts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hearts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,33 @@
 		9FA4E8401DB989C700DC70CD /* Hangman */ = {
 			isa = PBXGroup;
 			children = (
+				9FA4E8581DBA877B00DC70CD /* WordFile */,
+				9FA4E8531DB98F5800DC70CD /* Images */,
 				9FA4E8411DB989C700DC70CD /* AppDelegate.swift */,
 				9FA4E8431DB989C700DC70CD /* ViewController.swift */,
+				9FF539611DC2776C00538635 /* Hearts.swift */,
 				9FA4E8451DB989C700DC70CD /* Main.storyboard */,
 				9FA4E8481DB989C700DC70CD /* Assets.xcassets */,
 				9FA4E84A1DB989C700DC70CD /* LaunchScreen.storyboard */,
 				9FA4E84D1DB989C700DC70CD /* Info.plist */,
 			);
 			path = Hangman;
+			sourceTree = "<group>";
+		};
+		9FA4E8531DB98F5800DC70CD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9FA4E8541DB98F6A00DC70CD /* 2764.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9FA4E8581DBA877B00DC70CD /* WordFile */ = {
+			isa = PBXGroup;
+			children = (
+				9FA4E8561DBA875200DC70CD /* wordList.txt */,
+			);
+			name = WordFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FA4E84C1DB989C700DC70CD /* LaunchScreen.storyboard in Resources */,
+				9FA4E8571DBA875200DC70CD /* wordList.txt in Resources */,
 				9FA4E8491DB989C700DC70CD /* Assets.xcassets in Resources */,
+				9FA4E8551DB98F6A00DC70CD /* 2764.png in Resources */,
 				9FA4E8471DB989C700DC70CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FA4E8441DB989C700DC70CD /* ViewController.swift in Sources */,
+				9FF539621DC2776C00538635 /* Hearts.swift in Sources */,
 				9FA4E8421DB989C700DC70CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +325,7 @@
 				9FA4E8521DB989C700DC70CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
